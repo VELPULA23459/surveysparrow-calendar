@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body, #root { height: 100%; }
+.card { @apply rounded-2xl border border-gray-200 bg-white shadow-soft dark:bg-[#101214] dark:border-gray-800; }
